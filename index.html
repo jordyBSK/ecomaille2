@@ -18,9 +18,9 @@
           class="menu rounded-box menu-compact w-56 bg-secondary p-2 lg:menu-normal"
         >
           <li>
-            <a class="active text-white hover:active" href="index.html">Calcul Dépenses</a>
+            <a class="active text-white hover:active font-semibold text-xl" href="index.html">Calcul Dépenses</a>
           </li>
-          <li><a class="text-white hover:active" href="budget.html">Budget</a></li>
+          <li><a class="text-white hover:active font-semibold text-xl" href="budget.html">Budget</a></li>
         </ul>
       </div>
       <div>
@@ -34,19 +34,19 @@
           class="stats mt-1 flex w-72 justify-center justify-items-center bg-secondary"
         >
           <div class="stat">
-            <div class="stat-title mb-7 flex justify-center text-white">
+            <div class="stat-title mb-7 flex justify-center text-white font-semibold text-xl">
               Budget
             </div>
             <input
               type="number"
               id="n0"
               placeholder="salaire du mois"
-              class="input-ghost input ml-2 w-full max-w-xs justify-center text-white"
+              class=" font-semibold text-xl input-ghost input ml-2 w-full max-w-xs justify-center text-white"
             />
           </div>
         </div>
         <div class="mt-16 mb-8 flex">
-          <h1 class="ml-4 text-gray-500 underline">insert tes dépenses</h1>
+          <h1 class="ml-4 text-gray-500 underline font-semibold text-xl">insert tes dépenses</h1>
         </div>
         <div class="rounded-box">
           <div class="mt-4 mb-12">
@@ -56,7 +56,7 @@
               value=""
               id="n1"
               placeholder="loyer (logement)"
-              class="input-ghost input w-full max-w-xs text-white"
+              class="input-ghost input w-full max-w-xs text-white font-semibold text-xl"
             />
           </div>
           <div class="mt-6 mb-12">
@@ -66,7 +66,7 @@
               value=""
               id="n2"
               placeholder="Transport"
-              class="input-ghost input w-full max-w-xs text-white"
+              class="input-ghost input w-full max-w-xs text-white font-semibold text-xl"
             />
           </div>
           <div class="mt-6 mb-12">
@@ -76,7 +76,7 @@
               value=""
               id="n3"
               placeholder="Assurances"
-              class="input-ghost input w-full max-w-xs text-white"
+              class="input-ghost input w-full max-w-xs text-white font-semibold text-xl"
             />
           </div>
 
@@ -86,7 +86,7 @@
               type="number"
               id="n4"
               placeholder="Alimentation"
-              class="input-ghost input w-full max-w-xs text-white"
+              class="input-ghost input w-full max-w-xs text-white font-semibold text-xl"
             />
           </div>
           <div class="mt-6 mb-12">
@@ -95,7 +95,7 @@
               type="number"
               id="n5"
               placeholder="Vêtement"
-              class="input-ghost input w-full max-w-xs text-white"
+              class="input-ghost input w-full max-w-xs text-white font-semibold text-xl"
             />
           </div>
           <div class="mt-6 mb-12">
@@ -104,7 +104,7 @@
               type="number"
               id="n6"
               placeholder="Impots"
-              class="input-ghost input w-full max-w-xs text-white"
+              class="input-ghost input w-full max-w-xs text-white font-semibold text-xl"
             />
           </div>
         </div>
@@ -113,29 +113,29 @@
       <div class="flex-col hidden ml-36" id="resultat">
       <div class="ml-72 flex pr-4">
         <div
-          class="stats mt-6 h-44 justify-end justify-items-end bg-secondary text-white shadow"
+          class="stats mt-6 h-44 justify-end justify-items-end bg-secondary text-white shadow font-semibold text-xl"
         >
           <div class="stat mt-1 h-5 justify-items-center">
-            <div class="stat-title mb-7 text-white">Économie</div>
+            <div class="stat-title mb-7 text-white font-semibold text-xl">Économie</div>
             <input
               oninput="calc()"
               type="number"
               id="eco"
               placeholder="Économie"
-              class="input-ghost input flex w-full max-w-xs text-black"
+              class=" font-semibold text-xl input-ghost input flex w-full max-w-xs text-black"
               disabled
             />
           </div>
         </div>
         <div class="stats mt-6 ml-4 h-44 bg-secondary text-white shadow">
           <div class="stat mt-1 h-5 justify-items-center">
-            <div class="stat-title mb-7 text-white">Dépenses</div>
+            <div class="stat-title mb-7 text-white font-semibold text-xl">Dépenses</div>
             <input
               oninput="calc()"
               type="number"
               id="result"
               placeholder="Dépenses"
-              class="input-ghost input flex w-full max-w-xs text-black"
+              class="input-ghost input flex w-full max-w-xs text-black font-semibold text-xl"
               disabled
             />
           </div>
